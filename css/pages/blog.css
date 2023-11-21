@@ -1,1 +1,72 @@
 @import "../base/global.css";
+.heading p{
+margin-bottom: 32px ;
+margin-top: 163px;
+text-align: center;
+}
+
+#paragraph{
+width: 1024px;
+color: #1D2130;
+text-align: center;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+}
+.heading h1{
+margin-bottom: 16px;
+margin-left: 370px;
+}
+.heading h2{
+font-weight: 400;
+font-size: 16px;
+color: #525560;
+text-align: center;
+margin-bottom: 48px;
+}
+.header__center img{
+margin-left: 120px;
+}
+.headline h1 {
+width: 1024px;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+margin-left: 250px;
+margin-top: 96px;
+margin-bottom: 32px;
+}
+.note2 h1{
+margin-top: 32px;
+margin-bottom: 16px;
+margin-left: 370px;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+}
+.note p, .note2 p, .note3 p{
+color: var(--primary-color);
+width: 1024px;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+margin-left: 250px;
+}
+#dot {
+font-size: 32px;
+position: relative;
+bottom: 3px;
+right: 2px;
+}
+.note3 h1{
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+margin-left: 370px;
+margin-top: 32px;
+}

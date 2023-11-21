@@ -1,1 +1,128 @@
 @import "../base/global.css";
+
+.had-bosh{
+    display: flex;
+    margin-left: 200px;
+}
+.line{
+    margin-top: 100px;
+    margin-right: 24px;
+}
+.text-page{
+    margin-top: 96px;
+    color: var(--Primary-text);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.main-section{
+    margin-left: 260px;
+}
+.title-page{
+    margin-top: 32px;
+    color: var(--Primary-text);
+    width: 832px;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.home-text{
+    margin-top: 32px;
+    color: #525560;
+    width: 832px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+img{
+    /* position: relative;
+    top: 32px;
+    right: 80px; */
+    margin-top: 32px;
+}
+.heading-cool{
+    margin-top: 48px;
+    color: var(--Primary-text);
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+}
+.text-prg{
+    margin-top: 16px;
+    color: #525560;
+    width: 832px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.list-text{
+    margin-top: 16px;
+    color: var(--Primary-text);
+    width: 832px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+.medium-text{
+    margin-top: 16px;
+    color: #525560;
+    width: 832px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.section-medium{
+    display: flex;
+    gap: 10px;
+}
+.bgcolor{
+    width: 100%;
+    height: 436px;
+    flex-shrink: 0;
+    background: #EBF0F9;
+    margin-top: 96px;
+}
+/* .medium{
+   margin-left: 500px;
+} */
+.medium-column{
+    display: flex;
+}
+.med-icon{
+    margin-top: 95px;
+}
+.medium-text{
+    margin-top: 96px;
+    color: var(--Primary-text);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+.medium-text-2{
+    color: #525560;
+    width: 436px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
