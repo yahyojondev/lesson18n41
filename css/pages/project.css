@@ -1,1 +1,43 @@
 @import "../base/global.css";
+
+.had-bosh{
+    display: flex;
+    margin-left: 200px;
+}
+.line{
+    margin-top: 6px;
+    margin-right: 24px;
+}
+.text-page{
+    color: var(--Primary-text);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.main-section{
+    margin-left: 260px;
+}
+.title-page{
+    margin-top: 32px;
+    color: var(--Primary-text);
+    width: 832px;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.home-text{
+    margin-top: 32px;
+    color: #525560;
+    width: 832px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
