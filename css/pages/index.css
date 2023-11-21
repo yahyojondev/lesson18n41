@@ -26,12 +26,13 @@ header{
     align-items: center;
 }
 .navbar__list{
-    display: none;
+    display: flex;
     align-items: center;
     gap: 40px;
 }
 /* navbar-open backtop light-dark start */
 .menu__btn{
+    display:none;
     font-size: 25px;
     background-color: transparent;
 }
