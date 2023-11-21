@@ -1,2 +1,74 @@
 @import "../base/global.css";
 @import "../modules/donate.css";
+* {
+    padding: 0;
+    margin: 0;
+}
+*::after,
+::before {
+    box-sizing: border-box;
+} 
+.container {
+    max-width:1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#donation {
+    background-color: #eff7f2;
+}
+.donation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.donation-home-left img{
+    margin-top: 96px;
+}
+.donation-home-left-inf {
+    margin-left: 93px;
+}
+.donation-home-left-inf h1 {
+  padding-top: 32px;
+  color: #1d2130;
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.donation-home-left-inf p {
+  padding-top: 14px;
+  color: #525560;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.donation-home-left button {
+    margin-left: 92px;
+    margin-top: 32px;
+    margin-bottom: 96px;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #70c174;
+  backdrop-filter: blur(40px);
+}
+.donation-home-left a {
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+.donate-home-right img {
+    margin-top: 96px;
+    margin-bottom: 96px;
+    margin-left: 76px;
+}
