@@ -14,7 +14,6 @@ header {
     height: 67px;
     flex-shrink: 0;
     background: #FFF;
-    backdrop-filter: blur(15px);
 }
 
 .navbar {
