@@ -1,1 +1,364 @@
 @import "../base/global.css";
+
+
+
+#home {
+    background-color: #EBF0F9;
+}
+
+
+.home-top {
+    display: flex;
+    margin-bottom: 25px;
+    flex-shrink: 0;
+}
+
+
+
+.home-top svg {
+    display: block;
+    margin-left: 110px;
+    margin-top: 105px;
+}
+
+.home-top h3 {
+    display: block;
+    margin-left: 24px;
+    margin-top: 96px;
+    color: #1D2130;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+.home-left {
+    display: block;
+    width: 480.451px;
+    height: 202px;
+    flex-shrink: 0;
+    margin-left: 205px;
+}
+
+.home-left h1 {
+    width: 480.451px;
+    color: #1D2130;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+
+.home-left p {
+    width: 480.451px;
+    color: #1D2130;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+
+
+.home-right {
+    display: block;
+    margin-top: -240px;
+    margin-left: 850px;
+    width: 302px;
+    height: 392px;
+    flex-shrink: 0;
+}
+
+
+.info {
+    width: 279px;
+    height: 76px;
+    flex-shrink: 0;
+}
+
+
+.info h2 {
+    color: #1D2130;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+
+.info h3 {
+    display: block;
+    margin-left: 10px;
+    color: #1D2130;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+.info h4 {
+    display: block;
+    margin-left: 130px;
+    margin-top: -28px;
+    color: #1D2130;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+.addres {
+    display: block;
+    margin-top: 10px;
+    width: 302px;
+    height: 92px;
+    flex-shrink: 0;
+}
+
+.addres h2 {
+    color: #1D2130;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.addres p {
+    width: 302px;
+    color: #525560;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+
+.address {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 302px;
+    height: 92px;
+    flex-shrink: 0;
+}
+
+.address h2 {
+    color: #1D2130;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.address p {
+    width: 302px;
+    color: #525560;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+
+.cowial-row svg {
+    margin: 0px 15px 0px 10px;
+}
+
+
+.from-container {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 768px;
+    height: 440px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+}
+
+.input-box label {
+    display: block;
+    padding-top: 100px;
+    padding-left: 113px;
+    color: #1D2130;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    opacity: 0.6;
+}
+
+.input-box input {
+    display: block;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 110px;
+    width: 280px;
+    height: 45px;
+}
+
+.input-box ::placeholder {
+    padding-left: 15px;
+}
+
+.input-box-1 label {
+    display: block;
+    margin-left: 413px;
+    margin-top: -75px;
+    color: #1D2130;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    opacity: 0.6;
+}
+
+.input-box-1 input {
+    display: block;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 410px;
+    width: 280px;
+    height: 45px;
+}
+
+
+.input-box-1 ::placeholder {
+    padding-left: 15px;
+}
+
+
+.gmail label {
+    display: block;
+    padding-top: 25px;
+    padding-left: 113px;
+    color: #1D2130;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    opacity: 0.6;
+}
+
+.gmail input {
+    display: block;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 110px;
+    width: 280px;
+    height: 45px;
+}
+
+
+.gmail ::placeholder {
+    padding-left: 15px;
+}
+
+
+.aziz label {
+    display: block;
+    margin-left: 413px;
+    margin-top: -75px;
+    color: #1D2130;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    opacity: 0.6;
+}
+
+.aziz input {
+    display: block;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 410px;
+    width: 280px;
+    height: 45px;
+}
+
+
+.aziz ::placeholder {
+    padding-left: 15px;
+}
+
+
+.textarea-box label {
+    display: block;
+    margin-left: 113px;
+    margin-top: 35px;
+    color: #1D2130;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    opacity: 0.6;
+}
+
+.textarea-box textarea {
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 550px;
+    padding: 15px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    resize: none;
+}
+
+
+.dood {
+    display: inline-flex;
+    margin-left: 320px;
+    padding-left: 40px ;
+    width: 170px;
+    height: 50px;
+    margin-top: 20px;
+    align-items: center;
+    border: 2px solid black;
+    gap: 10px;
+    border-radius: 4px;
+    background: #70C174;
+    backdrop-filter: blur(40px);
+    transition: 0,5s;
+}
+
+
+.dood:hover {
+    background-color: aquamarine;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+
+.map {
+    margin-top: 100px;
+    margin-bottom: 70px;
+    height: 50vh;
+    width: 100vw;
+}
