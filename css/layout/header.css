@@ -24,7 +24,7 @@ header {
 }
 
 .navbar__list {
-    display: none;
+    display: flex;
     align-items: center;
     gap: 40px;
 }
