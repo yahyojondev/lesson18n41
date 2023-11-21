@@ -1,12 +1,17 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: roboto;
 }
 
 *,
 *::after,
 *::before {
   box-sizing: border-box;
+}
+:root{
+--primary-color:#525560;
+--Primary-text:#1D2130;
 }
 
 a {
@@ -25,4 +30,6 @@ textarea {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 40px;
 }
