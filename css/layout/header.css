@@ -1,0 +1,71 @@
+:root {
+    --secondary-color: #525560;
+    --Black: #0B0706;
+    --Primary-color: #1D2130;
+    --Green-primary: #70C174;
+    --Green-tertiary: #EFF7F2;
+}
+
+/* header start  */
+header {
+    position: fixed;
+    width: 100%;
+    padding-top: 15px;
+    height: 67px;
+    flex-shrink: 0;
+    background: #FFF;
+    backdrop-filter: blur(15px);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__list {
+    display: none;
+    align-items: center;
+    gap: 40px;
+}
+
+/* navbar-open backtop light-dark start */
+.menu__btn {
+    display: flex;
+    font-size: 25px;
+    background-color: transparent;
+}
+
+/* navbar-open backtop light-dark end */
+.navbar__link {
+    color: var(--secondary-color);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: 0.5s;
+}
+
+.navbar__link:hover {
+    color: var(--Black, #0B0706);
+    font-weight: bold;
+}
+
+.navbar__btn {
+    padding: 12px 32px;
+    align-items: flex-start;
+    color: #FFF;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--Primary-color);
+}
+
+/* header end */
+/* home start */
