@@ -264,6 +264,10 @@
     display: flex;
     gap: 24px;
     justify-content: space-around;
+    background-color: var(--green-color);
+    padding: 40px 48px 40px 40px;
+    border-radius: 8px;
+    margin-top: 10px;
 }
 
 .event__box--left{
@@ -294,12 +298,22 @@
     text-transform: uppercase;
 }
 
+.event__box--center h3 span{
+    display: inline-block;
+    width: 44px;
+    height: 2px;
+    vertical-align: middle;
+    margin-left: 23px;
+    background-color: var(--primary-text);
+}
+
 .event__box--center h2{
     color: var(--Primary-text, #1D2130);
     font-size: 28px;
     font-weight: 700;
     line-height: 150%;
 }
+
 
 
 
@@ -393,6 +407,12 @@
     .feature__cards{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .event__boxes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 24px;
     }
 }
 

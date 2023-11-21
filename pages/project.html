@@ -4,73 +4,355 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/pages/index.css">
     <title>lesson18 | project| Fahriddin </title>
     <link rel="stylesheet" href="/css/pages/project.css">
+    <link rel="stylesheet" href="../css/pages/services.css" />
+    <link rel="stylesheet" href="/css/layout/header.css">
 </head>
 
 <body>
+    <header id="navbar">
+        <nav>
+            <div class="container">
+                <div class="navbar">
+                    <img src="./../assets/images/headerlogo.svg" alt="logo" class="navbar__img" />
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a href="./../index.html" class="navbar__link">Home</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="./about.html" class="navbar__link">About us</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="blog.html" class="navbar__link">What We Do</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="media.html" class="navbar__link">Media</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="contact.html" class="navbar__link">Contact</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="donation.html" class="navbar__btn">Donate</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a id="mode-btn"><img src="./../assets/images/dark.svg" alt="dark" />
+                            </a>
+                        </li>
+                    </ul>
+                    <button id="navbar-open" class="menu__btn">
+                        <i class="fa-solid fa-bars fa-flip"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main>
         <section>
             <div class="container">
                 <div class="had-bosh">
-                    <svg class="line" xmlns="http://www.w3.org/2000/svg" width="72" height="3" viewBox="0 0 72 3" fill="none">
-                        <path d="M0 1.5H72" stroke="#1D2130" stroke-width="2"/>
-                      </svg>
+                    <svg class="line" xmlns="http://www.w3.org/2000/svg" width="72" height="3" viewBox="0 0 72 3"
+                        fill="none">
+                        <path d="M0 1.5H72" stroke="#1D2130" stroke-width="2" />
+                    </svg>
                     <p class="text-page">Our project</p>
                 </div>
                 <div class="main-section">
                     <h1 class="title-page">Weekly cleanliness program in <br> city</h1>
-                <p class="home-text">Et morbi vitae lobortis nam odio. Faucibus vitae vel neque nullam in in lorem
-                    platea mattis. Euismod aenean rhoncus <br> scelerisque amet tincidunt scelerisque aliquam. Luctus
-                    porttitor elit vel sapien, accumsan et id ut est. Posuere <br> molestie in turpis quam. Scelerisque
-                    in
-                    viverra mi ut quisque. In sollicitudin sapien, vel nulla quisque vitae. <br> Scelerisque eget
-                    accumsan,
-                    non in. Posuere magna erat bibendum amet, nisi eu id. <br>
-                    <br>
-                    Viverra at diam nunc non ornare. Sed ultricies pulvinar nunc, lacus sem. Tellus aliquam ut euismod
-                    cursus dui lectus. <br> Ut amet, cras volutpat dui. A bibendum viverra eu cras. <br>
-                    Mauris morbi sed dignissim a in nec aliquam fringilla et. Mattis elit dignissim nibh sit. Donec arcu
-                    sed elit scelerisque <br> tempor ornare tristique. Integer faucibus duis praesent tempor feugiat
-                    ornare
-                    in. Erat libero egestas porttitor nunc <br> pellentesque mauris et pulvinar eget. <br>
-                    <br>
-                    Consectetur feugiat quis hac enim nullam in enim. Tellus nisi dapibus libero rutrum vitae nisl,
-                    cursus in sed. Egestas <br> mi ultricies et consectetur vel non. Augue enim enim, eget ut sit purus,
-                    justo nisl pharetra. Tincidunt leo aenean dui, <br> varius metus, vel. Maecenas eu rhoncus, est nunc
-                    nisi
-                    volutpat, amet venenatis faucibus. Enim, vel nunc purus feugiat <br> purus tincidunt neque. Massa
-                    ultricies faucibus pellentesque risus duis est.</p>
+                    <p class="home-text">Et morbi vitae lobortis nam odio. Faucibus vitae vel neque nullam in in lorem
+                        platea mattis. Euismod aenean rhoncus <br> scelerisque amet tincidunt scelerisque aliquam.
+                        Luctus
+                        porttitor elit vel sapien, accumsan et id ut est. Posuere <br> molestie in turpis quam.
+                        Scelerisque
+                        in
+                        viverra mi ut quisque. In sollicitudin sapien, vel nulla quisque vitae. <br> Scelerisque eget
+                        accumsan,
+                        non in. Posuere magna erat bibendum amet, nisi eu id. <br>
+                        <br>
+                        Viverra at diam nunc non ornare. Sed ultricies pulvinar nunc, lacus sem. Tellus aliquam ut
+                        euismod
+                        cursus dui lectus. <br> Ut amet, cras volutpat dui. A bibendum viverra eu cras. <br>
+                        Mauris morbi sed dignissim a in nec aliquam fringilla et. Mattis elit dignissim nibh sit. Donec
+                        arcu
+                        sed elit scelerisque <br> tempor ornare tristique. Integer faucibus duis praesent tempor feugiat
+                        ornare
+                        in. Erat libero egestas porttitor nunc <br> pellentesque mauris et pulvinar eget. <br>
+                        <br>
+                        Consectetur feugiat quis hac enim nullam in enim. Tellus nisi dapibus libero rutrum vitae nisl,
+                        cursus in sed. Egestas <br> mi ultricies et consectetur vel non. Augue enim enim, eget ut sit
+                        purus,
+                        justo nisl pharetra. Tincidunt leo aenean dui, <br> varius metus, vel. Maecenas eu rhoncus, est
+                        nunc
+                        nisi
+                        volutpat, amet venenatis faucibus. Enim, vel nunc purus feugiat <br> purus tincidunt neque.
+                        Massa
+                        ultricies faucibus pellentesque risus duis est.</p>
 
-                <img src="images/Image (7).png" alt="pmg">
-                <h2>Some cool heading</h2>
-                <p>Posuere sed pulvinar enim faucibus justo, cursus. In diam facilisi at sit convallis blandit blandit
-                    in. Maecenas odio <br> orci lectus urna ante consequat erat non morbi. Rhoncus ullamcorper dictum
-                    sit non
-                    semper sit tellus adipiscing. Est <br> sapien rhoncus sit vestibulum sollicitudin. Tellus urna
-                    malesuada
-                    eu id tempus lorem. Est aliquam sem bibendum <br> felis interdum pharetra. Diam fermentum in lectus
-                    morbi
-                    at eget sit et quisque. Semper commodo viverra donec <br> magna egestas nibh. Condimentum
-                    pellentesque
-                    auctor ornare at at tellus nunc cras eu. Velit dignissim penatibus <br> faucibus tempus. Arcu
-                    pharetra
-                    morbi bibendum et dolor volutpat amet. Sed mauris amet mi sed purus vitae odio. Mi <br> eu lectus
-                    suscipit sagittis, ultrices ut dui.</p>
+                    <img class="foto-img" src="images/Image (7).png" alt="pmg">
+                    <h2 class="heading-cool">Some cool heading</h2>
+                    <p class="text-prg">Posuere sed pulvinar enim faucibus justo, cursus. In diam facilisi at sit
+                        convallis blandit blandit
+                        in. Maecenas odio <br> orci lectus urna ante consequat erat non morbi. Rhoncus ullamcorper
+                        dictum
+                        sit non
+                        semper sit tellus adipiscing. Est <br> sapien rhoncus sit vestibulum sollicitudin. Tellus urna
+                        malesuada
+                        eu id tempus lorem. Est aliquam sem bibendum <br> felis interdum pharetra. Diam fermentum in
+                        lectus
+                        morbi
+                        at eget sit et quisque. Semper commodo viverra donec <br> magna egestas nibh. Condimentum
+                        pellentesque
+                        auctor ornare at at tellus nunc cras eu. Velit dignissim penatibus <br> faucibus tempus. Arcu
+                        pharetra
+                        morbi bibendum et dolor volutpat amet. Sed mauris amet mi sed purus vitae odio. Mi <br> eu
+                        lectus
+                        suscipit sagittis, ultrices ut dui.</p>
 
-                <div class="list-paragrph">
-                    <p>Posuere sed pulvinar enim faucibus justo, cursus. <br>
-                        In diam facilisi at sit convallis blandit blandit in. <br>
-                        Maecenas odio orci lectus urna ante consequat erat non morbi.</p>
+                    <div class="list-paragrph">
+                        <p class="list-text">Posuere sed pulvinar enim faucibus justo, cursus. <br>
+                            In diam facilisi at sit convallis blandit blandit in. <br>
+                            Maecenas odio orci lectus urna ante consequat erat non morbi.</p>
+                    </div>
+
+                    <p class="medium-text">Posuere sed pulvinar enim faucibus justo, cursus. In diam facilisi at sit
+                        convallis blandit blandit
+                        in. Maecenas odio <br> orci lectus urna ante consequat erat non morbi.</p>
                 </div>
 
-                <p>Posuere sed pulvinar enim faucibus justo, cursus. In diam facilisi at sit convallis blandit blandit
-                    in. Maecenas odio <br> orci lectus urna ante consequat erat non morbi.</p>
-                </div>
-                
             </div>
-        </section>
+        <!-- </section>
+        <section class="bgcolor">
+            <div class="container">
+                <div class="section-medium">
+                    <div class="medium">
+                        <div class="medium-column">
+                            <svg class="med-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path opacity="0.4"
+                                    d="M22.219 29.3193H9.77967C7.85098 29.4392 5.95691 28.7705 4.5317 27.4679C3.22904 26.0414 2.56039 24.1473 2.68026 22.22V9.77948C2.56039 7.85214 3.2277 5.95809 4.53037 4.53156C5.95691 3.22891 7.85098 2.56026 9.77967 2.68014H22.219C24.145 2.56026 26.0377 3.22758 27.4629 4.53023C28.7643 5.95809 29.4342 7.8508 29.3197 9.77948V22.22C29.4382 24.1473 28.7709 26.0414 27.4683 27.4679C26.0417 28.7705 24.1476 29.4392 22.219 29.3193Z"
+                                    fill="#716FE7" />
+                                <path
+                                    d="M22.7392 13.8631L14.0022 22.6436C13.5478 23.0859 12.9506 23.333 12.3275 23.333H9.27667C9.1079 23.333 8.95211 23.268 8.83527 23.1509C8.71843 23.0339 8.6665 22.8778 8.6665 22.7087L8.7444 19.6257C8.75738 19.0143 9.00404 18.442 9.43246 18.0127L15.625 11.8078C15.7288 11.7038 15.9106 11.7038 16.0144 11.8078L18.1864 13.9711C18.3292 14.1129 18.5369 14.2052 18.7576 14.2052C19.2379 14.2052 19.6144 13.815 19.6144 13.3467C19.6144 13.1126 19.5235 12.9044 19.3807 12.7483C19.3418 12.6963 17.2737 10.6371 17.2737 10.6371C17.1439 10.507 17.1439 10.2859 17.2737 10.1558L18.1435 9.27126C18.9484 8.46476 20.2466 8.46476 21.0515 9.27126L22.7392 10.9623C23.5311 11.7558 23.5311 13.0566 22.7392 13.8631Z"
+                                    fill="#716FE7" />
+                            </svg>
+                            <p class="medium-text">200+ Plantation in 1 week</p>
+                        </div>
+                        <p class="medium-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Suspendisse varius enim in eros
+                            elementum tristique.</p>
+                    </div>
+                    <div class="medium">
+                        <div class="medium-column">
+                            <svg class="med-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path opacity="0.4" d="M21.434 2.66638H25.9486C27.8183 2.66638 29.3333 4.19418 29.3333 6.07967V10.6324C29.3333 12.5179 27.8183 14.0457 25.9486 14.0457H21.434C19.5643 14.0457 18.0493 12.5179 18.0493 10.6324V6.07967C18.0493 4.19418 19.5643 2.66638 21.434 2.66638Z" fill="#716FE7"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.0512 2.66638H10.5658C12.4355 2.66638 13.9505 4.19418 13.9505 6.07967V10.6324C13.9505 12.5179 12.4355 14.0457 10.5658 14.0457H6.0512C4.18151 14.0457 2.6665 12.5179 2.6665 10.6324V6.07967C2.6665 4.19418 4.18151 2.66638 6.0512 2.66638ZM6.0512 17.9537H10.5658C12.4355 17.9537 13.9505 19.4815 13.9505 21.367V25.9197C13.9505 27.8039 12.4355 29.333 10.5658 29.333H6.0512C4.18151 29.333 2.6665 27.8039 2.6665 25.9197V21.367C2.6665 19.4815 4.18151 17.9537 6.0512 17.9537ZM25.9485 17.9537H21.4339C19.5642 17.9537 18.0492 19.4815 18.0492 21.367V25.9197C18.0492 27.8039 19.5642 29.333 21.4339 29.333H25.9485C27.8182 29.333 29.3332 27.8039 29.3332 25.9197V21.367C29.3332 19.4815 27.8182 17.9537 25.9485 17.9537Z" fill="#716FE7"/>
+                              </svg>
+                            <p class="medium-text">200+ Plantation in 1 week</p>
+                        </div>
+                        <p class="medium-text-2" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Suspendisse varius enim in eros
+                            elementum tristique.</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section class="feature">
+            <div class="container">
+              <h1 class="feature__title">What we do for the environment</h1>
+              <div class="feature__cards">
+                <div class="feature__card">
+                  <img
+                    src="../services-images/services__environment--build.svg"
+                    alt="build svg"
+                  />
+                  <div class="feature__card--infos">
+                    <h3>Build healthy cities</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros elementum tristique.
+                    </p>
+                  </div>
+                </div>
+                <div class="feature__card">
+                  <img
+                    src="../services-images/services__environment--build.svg"
+                    alt="build svg"
+                  />
+                  <div class="feature__card--infos">
+                    <h3>Build healthy cities</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros elementum tristique.
+                    </p>
+                  </div>
+                </div>
+                <div class="feature__card">
+                  <img
+                    src="../services-images/services__environment--build.svg"
+                    alt="build svg"
+                  />
+                  <div class="feature__card--infos">
+                    <h3>Build healthy cities</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros elementum tristique.
+                    </p>
+                  </div>
+                </div>
+                <div class="feature__card">
+                  <img
+                    src="../services-images/services__environment--build.svg"
+                    alt="build svg"
+                  />
+                  <div class="feature__card--infos">
+                    <h3>Build healthy cities</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros elementum tristique.
+                    </p>
+                  </div>
+                </div>
+                <div class="feature__card">
+                  <img
+                    src="../services-images/services__environment--build.svg"
+                    alt="build svg"
+                  />
+                  <div class="feature__card--infos">
+                    <h3>Build healthy cities</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros elementum tristique.
+                    </p>
+                  </div>
+                </div>
+                <div class="feature__card">
+                  <img
+                    src="../services-images/services__environment--build.svg"
+                    alt="build svg"
+                  />
+                  <div class="feature__card--infos">
+                    <h3>Build healthy cities</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros elementum tristique.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+          <section class="projects">
+            <div class="project__container container">
+              <h4>Projects we have done</h4>
+              <h1>We are creating a sustainable society, for everyone.</h1>
+              <div class="project__cards">
+                <div class="project__card">
+                  <img
+                    src="../services-images/services__project--plantation.png"
+                    alt="plantation png"
+                  />
+                  <div class="project__card--info">
+                    <h3>Mission 40K: Tree plantation</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros.
+                    </p>
+                    <a href="#">See more</a>
+                  </div>
+                </div>
+                <div class="project__card">
+                  <img
+                    src="../services-images/services__project--city.png"
+                    alt="plantation png"
+                  />
+                  <div class="project__card--info">
+                    <h3>Mission 40K: Tree plantation</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros.
+                    </p>
+                    <a href="#">See more</a>
+                  </div>
+                </div>
+                <div class="project__card">
+                  <img
+                    src="../services-images/services__project--wildlife.png"
+                    alt="plantation png"
+                  />
+                  <div class="project__card--info">
+                    <h3>Mission 40K: Tree plantation</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Suspendisse varius enim in eros.
+                    </p>
+                    <a href="#">See more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+          <section class="donate">
+            <div class="container">
+              <div class="donate__contents">
+                <h1>You can contribute to make the environment greener!</h1>
+                <a class="volunteer__link" href="#">Join as a volunteer</a>
+                <a class="donate__link" href="#">Donate</a>
+              </div>
+            </div>
+          </section>
+          <!-- /////////////////////////////////////////////////// -->
     </main>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer__boxs">
+                <div class="footer__left__box">
+                    <a href="#" class="footer__left__link">
+                        <img src="./assets/images/headerlogo.svg" alt="logo">
+                    </a>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <p class="footer__item__text">Our team</p>
+                            <ul class="footer__item__list">
+                                <li class="item__list__item">About us</li>
+                                <li class="item__list__item">Team</li>
+                                <li class="item__list__item">What we do</li>
+                                <li class="item__list__item">Contact</li>
+                            </ul>
+                        </li>
+                        <li class="footer__item">
+                            <p class="footer__item__text">More</p>
+                            <ul class="footer__item__list">
+                                <li class="item__list__item">Projects</li>
+                                <li class="item__list__item">Events</li>
+                                <li class="item__list__item">Donate</li>
+                                <li class="item__list__item">Blog</li>
+                            </ul>
+                        </li>
+                        <li class="footer__item">
+                            <p class="footer__item__text">Connect </p>
+                            <ul class="footer__item__list">
+                                <li class="item__list__item">Facebook</li>
+                                <li class="item__list__item">Instagram</li>
+                                <li class="item__list__item">Twitter</li>
+                                <li class="item__list__item">Linkdin </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__right__box">
+                    <h2 class="footer__right__box__title">Linkdin</h2>
+                    <div class="form">
+                        <input type="email" placeholder="Your email" required>
+                        <button class="footer__btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
