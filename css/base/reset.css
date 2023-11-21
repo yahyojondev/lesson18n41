@@ -23,6 +23,7 @@ button {
   cursor: pointer;
 }
 
+
 input,
 textarea {
   outline: none;
@@ -31,5 +32,6 @@ textarea {
 ul {
   list-style-type: none;
   display: flex;
+
   gap: 40px;
 }
