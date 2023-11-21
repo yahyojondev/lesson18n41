@@ -65,6 +65,15 @@ header {
     border-radius: 4px;
     background: var(--Primary-color);
 }
+@media(min-width:900px) {
+    .navbar__list {
+        display: flex;
+    }
+
+    .menu__btn {
+        display: none;
+    }
+}
 
 /* header end */
 /* home start */
