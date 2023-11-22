@@ -140,6 +140,7 @@ ul {
 }
 .donation-desc-card {
   margin-top: 96px;
+  margin-bottom: 96px;
 }
 .donation-desc-card h2 {
   width: 374px;
@@ -164,4 +165,67 @@ ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
+}
+.donation-volunteer {
+  margin-bottom: 96px;
+  background-image: url(../../assets/donation__images/donation-background-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 12px;
+  /* opacity: 0.5; */
+  backdrop-filter: blur(5px), rgba(31, 28, 28, 0.5);
+}
+.donation-menu h3 {
+  margin-left: 325px;
+  width: 631px;
+  padding-top: 93px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.volunter-btn {
+  gap: 32px;
+  margin-left: 510px;
+  padding-bottom: 92px;
+}
+.donate-join-volunteer {
+  display: inline-flex;
+  margin-top: 32px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #70c174;
+  backdrop-filter: blur(40px);
+}
+.donate-join-volunteer a {
+  color: #fff;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+.donate-space {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #fff;
+  backdrop-filter: blur(40px);
+}
+.donate-space a {
+  color: #1d2130;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
